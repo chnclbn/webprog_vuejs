@@ -4,6 +4,7 @@
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/rwd.css">
+  <link rel="stylesheet" href="css/images.css">
 </head>
 <body>
 <div class="grid-container">
@@ -50,16 +51,18 @@
     </div>
 </div>
 
-<h1>Vue Example</h1>
-
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
-
 <div id="app">
   {{ message }}
 </div>
+<div id="appa">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/vue.js"></script>
+<script src="js/images.js"></script>
 
 </body>
 </html>
