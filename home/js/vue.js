@@ -1,15 +1,9 @@
 const app = Vue.createApp({
-
    data() {
-
     return {
-
-     message: "Chelsea Nacalaban"
-
+     message: "chelsea!"
     }
-
    }
-
   })
-
+  
   app.mount('#app')
