@@ -1,5 +1,5 @@
 <template>
-  <h1>Iced Coffee</h1>
+  <h1>Iced coffee that I like</h1>
   <food-item/>
   <food-item/>
   <food-item/>
@@ -12,5 +12,5 @@
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: lightpink;
   }</style>
