@@ -1,16 +1,9 @@
 <template>
   <h1>Iced coffee that I like</h1>
   <food-item/>
-  <food-item/>
-  <food-item/>
+  <food-item2/>
 </template>
 
 <script></script>
 
-<style>#app > div {
-    border: dashed black 1px;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: lightpink;
-  }</style>
+<style></style>
