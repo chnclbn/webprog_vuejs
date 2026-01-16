@@ -1,9 +1,20 @@
 <template>
-  <h1>Iced coffee that I like</h1>
-  <food-item/>
-  <food-item2/>
+  <div id="app">
+    <personal-profile></personal-profile>
+  </div>
 </template>
 
-<script></script>
+<script>
+import PersonalProfile from './components/PersonalProfile.vue'
 
-<style></style>
+export default {
+  name: 'App',
+  components: {
+    PersonalProfile
+  }
+}
+</script>
+
+<style>
+
+</style>
