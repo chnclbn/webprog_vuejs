@@ -15,6 +15,7 @@ export default {
   }
 };
 </script>
+<style>
  .coffee2 {
     border: dashed black 1px;
     display: inline-block;
@@ -22,4 +23,4 @@ export default {
     padding: 10px;
     background-color: pink;
   }
-<style></style>
+</style>
