@@ -1,4 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+import PersonalProfile from './components/PersonalProfile.vue'
+
+const app = createApp(App)
+
+
+app.component('personal-profile', PersonalProfile)
+
+app.mount('#app')

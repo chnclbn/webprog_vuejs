@@ -5,20 +5,12 @@
 </template>
 
 <script>
-
-import PersonalProfile from './components/PersonalProfile.vue'
-
 export default {
-  name: 'App',
-  components: {
-  
-    PersonalProfile
-  }
+  name: 'App'
 }
 </script>
 
 <style>
-
 body {
   margin: 0;
   padding: 0;
