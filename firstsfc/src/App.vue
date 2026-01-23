@@ -25,5 +25,6 @@ body {
 
 .food-container {
   display: flex;   
-  gap: 20px;       
+  gap: 20px; 
+}      
 </style>
