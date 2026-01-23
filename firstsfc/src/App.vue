@@ -19,7 +19,7 @@ async function getInstruments() {
     else if (!data || data.length === 0) {
         errorMsg.value = "Success, but database is empty! (Add rows in Supabase)"
     } 
-   
+    
     else {
         instruments.value = data
     }
