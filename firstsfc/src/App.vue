@@ -1,19 +1,10 @@
 <template>
-  <div id="app">
-    <personal-profile></personal-profile>
-  </div>
+  <h1>Food</h1>
+  <food-item/>
+  <comment-form/>
+  <comment/>
+   
+
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
-<style>
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-</style>
+<script></script>
